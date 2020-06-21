@@ -1,6 +1,8 @@
 # Greetings - Easy portfolio
 ![example](https://i.imgur.com/oBITjUi.png)
 
+### LIve demo: https://craftmend.com/
+
 Greetings generates a simple online portfolio based on yout github activity.
 
 # How to make your own page
