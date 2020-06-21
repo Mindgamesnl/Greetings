@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>{{user_name}}'s profile</title>
+    <link href="{{picture}}" rel="icon">
+    <link href="{{picture}}" rel="image">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+    <div class="left">
+        <header>
+            <img style="height: 20%; border-radius: 10px" src="{{picture}}" />
+            <h1>{{user_name}}</h1>
+            <h3>{{socials}}</h3>
+            <p>{{user_bio}}</p>
+        </header>
+    </div>
+    <div class="right">
+        <div class="project-list">
+            {{projects}}
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "github_token": "<your key>",
+  "repo_count": 50,
+  "hide_private": true,
+  "hide_empty_descriptions": true,
+
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Mindgamesnl"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://youtube.com/Mindgamesnl"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Mindgamesnl"
+    }
+  ]
+}
