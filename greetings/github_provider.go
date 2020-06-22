@@ -67,7 +67,7 @@ func LoadGithubData() {
 		var languageMeta LanguageInfo
 		if repo.GetLanguage() == "" {
 			languageMeta = LanguageInfo{
-				Name: "Plain text",
+				Name: "Plain text / Unknown",
 				Meta: Language{
 					Color: "#777",
 				},

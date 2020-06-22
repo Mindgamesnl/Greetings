@@ -1,5 +1,5 @@
 # Greetings - Easy portfolio
-![example](https://i.imgur.com/oBITjUi.png)
+![example](https://i.imgur.com/ORuUYlN.png)
 
 ### LIve demo: https://craftmend.com/
 
