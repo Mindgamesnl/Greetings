@@ -1,5 +1,7 @@
 package greetings
 
+import "strings"
+
 type LanguageInfo struct {
 	Name string
 	Meta Language
@@ -14,16 +16,13 @@ type Repository struct {
 }
 
 func (repository Repository) ToHtml() string {
-	html := `<a class="project-item" href="https://github.com/` + You.Handle + "/" + repository.Name + `">
-        <div class="item-inner">
-          <div class="content">
-            <h3>` + repository.Name + `</h3>
-            <p>` + repository.Description + `</p>
-          </div>
-          <div class="item-footer">
-            <b><div class="item-lang" style="color:` + repository.Language.Meta.Color + `"><span>` + repository.Language.Name + `</span></div></b>
-          </div>
-        </div></a>`
+	html := Read("resources/project.html")
+
+	html = strings.ReplaceAll(html, "{{account_handle}}", You.Handle)
+	html = strings.ReplaceAll(html, "{{repo_name}}", repository.Name)
+	html = strings.ReplaceAll(html, "{{repo_description}}", repository.Description)
+	html = strings.ReplaceAll(html, "{{language_color}}", repository.Language.Meta.Color)
+	html = strings.ReplaceAll(html, "{{language_name}}", repository.Language.Name)
 
 	return html
 }
