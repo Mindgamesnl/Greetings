@@ -31,22 +31,22 @@ func LoadGithubData() {
 	client := github.NewClient(tc)
 
 	user, _, err := client.Users.Get(ctx, "")
-	You = User{
-		Name:        user.GetName(),
-		Description: user.GetBio(),
-		Avatar:      user.GetAvatarURL(),
-		Handle:      user.GetLogin(),
-	}
 
 	if err != nil {
-		logrus.Error("Invalid github access token.")
+		logrus.Error("Could not load github request. Is your token valid?")
 		os.Exit(1)
+	}
+
+	You = User{
+		user.GetLogin(),
+		user.GetName(),
+		user.GetBio(),
+		user.GetAvatarURL(),
 	}
 
 	logrus.Info("Generating for " + user.GetName())
 
-	//var options &github.RepositoryListOptions
-	options := &github.RepositoryListOptions{
+	var options = &github.RepositoryListOptions{
 		Sort:        "pushed",
 		Affiliation: "owner",
 		ListOptions: github.ListOptions{
@@ -67,24 +67,24 @@ func LoadGithubData() {
 		var languageMeta LanguageInfo
 		if repo.GetLanguage() == "" {
 			languageMeta = LanguageInfo{
-				Name: "Plain text / Unknown",
-				Meta: Language{
+				"Plain text / Unknown",
+				Language{
 					Color: "#777",
 				},
 			}
 		} else {
 			languageMeta = LanguageInfo{
-				Name: repo.GetLanguage(),
-				Meta: KnownLanguages.Languages[repo.GetLanguage()],
+				repo.GetLanguage(),
+				KnownLanguages.Languages[repo.GetLanguage()],
 			}
 		}
 
 		Repositories = append(Repositories, Repository{
-			Name:        repo.GetName(),
-			Description: repo.GetDescription(),
-			Language:    languageMeta,
-			URL:         repo.GetURL(),
-			Owner:       repo.GetOwner().GetName(),
+			repo.GetName(),
+			repo.GetDescription(),
+			languageMeta,
+			repo.GetURL(),
+			repo.GetOwner().GetName(),
 		})
 	}
 

@@ -1,64 +1,12 @@
 {
   "colors": {
-    "1C Enterprise": {
-      "color": "#814CCC",
-      "url": "https://github.com/trending?l=1C-Enterprise"
-    },
-    "4D": {
-      "color": null,
-      "url": "https://github.com/trending?l=4D"
-    },
-    "ABAP": {
-      "color": "#E8274B",
-      "url": "https://github.com/trending?l=ABAP"
-    },
     "ActionScript": {
       "color": "#882B0F",
       "url": "https://github.com/trending?l=ActionScript"
     },
-    "Ada": {
-      "color": "#02f88c",
-      "url": "https://github.com/trending?l=Ada"
-    },
-    "Agda": {
-      "color": "#315665",
-      "url": "https://github.com/trending?l=Agda"
-    },
-    "AGS Script": {
-      "color": "#B9D9FF",
-      "url": "https://github.com/trending?l=AGS-Script"
-    },
-    "Alloy": {
-      "color": "#64C800",
-      "url": "https://github.com/trending?l=Alloy"
-    },
-    "Alpine Abuild": {
-      "color": null,
-      "url": "https://github.com/trending?l=Alpine-Abuild"
-    },
-    "AMPL": {
-      "color": "#E6EFBB",
-      "url": "https://github.com/trending?l=AMPL"
-    },
     "AngelScript": {
       "color": "#C7D7DC",
       "url": "https://github.com/trending?l=AngelScript"
-    },
-    "ANTLR": {
-      "color": "#9DC3FF",
-      "url": "https://github.com/trending?l=ANTLR"
-    },
-    "Apex": {
-      "color": null,
-      "url": "https://github.com/trending?l=Apex"
-    },
-    "API Blueprint": {
-      "color": "#2ACCA8",
-      "url": "https://github.com/trending?l=API-Blueprint"
-    },
-    "APL": {
-      "color": "#5A8164",
-      "url": "https://github.com/trending?l=APL"
     },
     "Apollo Guidance Computer": {
       "color": null,
@@ -88,14 +36,6 @@
       "color": "#4a0c0c",
       "url": "https://github.com/trending?l=Asymptote"
     },
-    "ATS": {
-      "color": "#1ac620",
-      "url": "https://github.com/trending?l=ATS"
-    },
-    "Augeas": {
-      "color": null,
-      "url": "https://github.com/trending?l=Augeas"
-    },
     "AutoHotkey": {
       "color": "#6594b9",
       "url": "https://github.com/trending?l=AutoHotkey"
@@ -107,10 +47,6 @@
     "Awk": {
       "color": null,
       "url": "https://github.com/trending?l=Awk"
-    },
-    "Ballerina": {
-      "color": "#FF5000",
-      "url": "https://github.com/trending?l=Ballerina"
     },
     "Batchfile": {
       "color": "#C1F12E",
@@ -140,10 +76,6 @@
       "color": null,
       "url": "https://github.com/trending?l=Bluespec"
     },
-    "Boo": {
-      "color": "#d4bec1",
-      "url": "https://github.com/trending?l=Boo"
-    },
     "Brainfuck": {
       "color": "#2F2530",
       "url": "https://github.com/trending?l=Brainfuck"
@@ -167,14 +99,6 @@
     "C2hs Haskell": {
       "color": null,
       "url": "https://github.com/trending?l=C2hs-Haskell"
-    },
-    "Cap'n Proto": {
-      "color": null,
-      "url": "https://github.com/trending?l=Cap'n-Proto"
-    },
-    "CartoCSS": {
-      "color": null,
-      "url": "https://github.com/trending?l=CartoCSS"
     },
     "Ceylon": {
       "color": "#dfa535",
@@ -204,41 +128,17 @@
       "color": "#3F85AF",
       "url": "https://github.com/trending?l=Clean"
     },
-    "Click": {
-      "color": "#E4E6F3",
-      "url": "https://github.com/trending?l=Click"
-    },
-    "CLIPS": {
-      "color": null,
-      "url": "https://github.com/trending?l=CLIPS"
-    },
     "Clojure": {
       "color": "#db5855",
       "url": "https://github.com/trending?l=Clojure"
-    },
-    "CMake": {
-      "color": null,
-      "url": "https://github.com/trending?l=CMake"
     },
     "COBOL": {
       "color": null,
       "url": "https://github.com/trending?l=COBOL"
     },
-    "CodeQL": {
-      "color": null,
-      "url": "https://github.com/trending?l=CodeQL"
-    },
     "CoffeeScript": {
       "color": "#244776",
       "url": "https://github.com/trending?l=CoffeeScript"
-    },
-    "ColdFusion": {
-      "color": "#ed2cd6",
-      "url": "https://github.com/trending?l=ColdFusion"
-    },
-    "ColdFusion CFC": {
-      "color": null,
-      "url": "https://github.com/trending?l=ColdFusion-CFC"
     },
     "Common Lisp": {
       "color": "#3fb68b",
@@ -252,17 +152,9 @@
       "color": "#B0CE4E",
       "url": "https://github.com/trending?l=Component-Pascal"
     },
-    "Cool": {
-      "color": null,
-      "url": "https://github.com/trending?l=Cool"
-    },
     "Coq": {
       "color": null,
       "url": "https://github.com/trending?l=Coq"
-    },
-    "Crystal": {
-      "color": "#000100",
-      "url": "https://github.com/trending?l=Crystal"
     },
     "Csound": {
       "color": null,
